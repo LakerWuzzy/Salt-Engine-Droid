@@ -51,8 +51,10 @@ import haxe.Json;
 import lime.utils.Assets;
 import openfl.display.BlendMode;
 import openfl.display.StageQuality;
-import Discord.DiscordClient;
 
+#if windows
+import Discord.DiscordClient;
+#end
 #if windows
 import Sys;
 import sys.FileSystem;
